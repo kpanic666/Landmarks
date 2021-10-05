@@ -74,6 +74,5 @@ struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkDetail(landmark: modelData.landmarks[0])
             .environmentObject(modelData)
-            .frame(width: 850, height: 700)
     }
 }

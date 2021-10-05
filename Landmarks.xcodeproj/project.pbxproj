@@ -25,6 +25,9 @@
 		E9650DA8270C39080041971C /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADAEB827063E9700151F48 /* LandmarksApp.swift */; };
 		E9650DA9270C39080041971C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ADAEBC27063E9900151F48 /* Assets.xcassets */; };
 		E9650DAB270C3D0B0041971C /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9650DAA270C3D0B0041971C /* LandmarkDetail.swift */; };
+		E965BFE3270CD0E7009DE7B3 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E965BFE2270CD0E7009DE7B3 /* LandmarkCommands.swift */; };
+		E965BFE4270CD0E7009DE7B3 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E965BFE2270CD0E7009DE7B3 /* LandmarkCommands.swift */; };
+		E965BFE6270CDB04009DE7B3 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E965BFE5270CDB04009DE7B3 /* LandmarkSettings.swift */; };
 		E9ADAEB927063E9700151F48 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADAEB827063E9700151F48 /* LandmarksApp.swift */; };
 		E9ADAEBB27063E9700151F48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADAEBA27063E9700151F48 /* ContentView.swift */; };
 		E9ADAEBD27063E9900151F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ADAEBC27063E9900151F48 /* Assets.xcassets */; };
@@ -134,6 +137,8 @@
 		E9650D97270C37940041971C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9650D99270C37940041971C /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
 		E9650DAA270C3D0B0041971C /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		E965BFE2270CD0E7009DE7B3 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		E965BFE5270CDB04009DE7B3 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		E9ADAEB527063E9700151F48 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9ADAEB827063E9700151F48 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		E9ADAEBA27063E9700151F48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -218,6 +223,8 @@
 				E9650D94270C37940041971C /* Assets.xcassets */,
 				E9650D99270C37940041971C /* MacLandmarks.entitlements */,
 				E9650D96270C37940041971C /* Preview Content */,
+				E965BFE2270CD0E7009DE7B3 /* LandmarkCommands.swift */,
+				E965BFE5270CDB04009DE7B3 /* LandmarkSettings.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -587,8 +594,10 @@
 			files = (
 				E9650D93270C37920041971C /* ContentView.swift in Sources */,
 				E9650D9D270C39080041971C /* Landmark.swift in Sources */,
+				E965BFE6270CDB04009DE7B3 /* LandmarkSettings.swift in Sources */,
 				E9650DA1270C39080041971C /* MapView.swift in Sources */,
 				E9650DA3270C39080041971C /* LandmarkList.swift in Sources */,
+				E965BFE4270CD0E7009DE7B3 /* LandmarkCommands.swift in Sources */,
 				E9650DAB270C3D0B0041971C /* LandmarkDetail.swift in Sources */,
 				E9650DA8270C39080041971C /* LandmarksApp.swift in Sources */,
 				E9650D9F270C39080041971C /* LandmarkRow.swift in Sources */,
@@ -606,6 +615,7 @@
 			files = (
 				E9C4C276270AD053005DA75E /* CategoryRow.swift in Sources */,
 				E9C4C27A270AE049005DA75E /* Profile.swift in Sources */,
+				E965BFE3270CD0E7009DE7B3 /* LandmarkCommands.swift in Sources */,
 				E9ADAEBB27063E9700151F48 /* ContentView.swift in Sources */,
 				E9C4C274270ACC56005DA75E /* CategoryHome.swift in Sources */,
 				E9EC3B40270B8CF500449B3B /* FeatureCard.swift in Sources */,

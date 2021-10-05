@@ -25,6 +25,7 @@ struct LandmarkRow: View {
                     .foregroundColor(.secondary)
                 #endif
             }
+            
             Spacer()
             
             if landmark.isFavorite {
